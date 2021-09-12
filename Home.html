@@ -2,7 +2,16 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <!--<link rel ="stylesheet" href="CSS/styles.css" />-->
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <style>
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 3;
+  width: 300px;
+  border: 3px solid #ffffff;
+}
+</style>
 </head>
 <meta charset="utf-8">
 <hr size="3">
@@ -17,8 +26,8 @@
   <p> <em>On Demand delivery services, created by <a href="https://cisbrands.com/">Cis Brands</a></em></p>
   <!--  <p>created by <a href="https://cisbrands.com/">Cis Brands</a></em></p>-->
   <!-- hr is used to add the size of the lines-->
-    <!-- <hr size="3">-->
-    <!-- <h2>About us</h2>-->
+  <!-- <hr size="3">-->
+  <!-- <h2>About us</h2>-->
   <!-- <p>The on-demand delivery market is booming. <br>Online websites and application-based digital platforms are major drivers of behind the rapid growth in the on-demand delivery market.<br>According to Statista, revenue from platform-to-consumer
     delivery is
     expected to witness an annual growth rate (CAGR 2021-2024) of 6.76% </Br>The projected market volume is expected to be US$96,864 million by 2024. <br>Having said that, technology platforms are not the only thrust behind this booming
@@ -41,22 +50,33 @@
   <h2>Choose your service</h2>
   <!----<a href="hobbies.html">my hobbies</a>-->
   <!----<h3>Choose your service</h3>-->
-  <ol>
-    <li><a href="Beautician.html"><strong>Beautician</strong></a></li>
-    <li><a href="Barber.html"><strong>Barber</strong></a></li>
-    <li><a href="Gardner.html"><strong>Gardner</strong></a></li>
-  </ol>
-  <hr size="3">
-  <a href="About us.html"><strong>About us </strong></a></li>
-  <a href="Contact Us.html"><strong>Contact us</strong></a></li>
-  <a href="Login.html"><strong>Log In </strong></a></li>
+  <div class="clearfix">
+    <div class="box" style="background-color:#bbb" href="Beautician">
+      <p><a href="Beautician.html">Beautician</p>
+    </div>
+    <div class="box" style="background-color:#ccc">
+      <p><a href="Barber.html">Barber</a></p>
+    </div>
+    <div class="box" style="background-color:#ddd">
+      <p><a href="Gardner.html">Gardner</a></p></div>
+      <div class="box" style="background-color:#ddd">
+        <p><a href="Vendor Rregistration.html">Vacent</a></p>
+
+    </div>
+  </div>
+
   <!----<<a href="Vendor Registration.html"><strong>Vendor Registration</strong></a></li>-->
 
 
 
   </h3>
-  <hr>
-
+  <div class="fixed">
+    <p><a href="About us.html"><strong>About us </strong></a></li></p>
+       <p><a href="Contact Us.html"><strong>Contact us</strong></a></li></p>
+     <p><a href="Login.html"><strong>Log In </strong></a></li></p>
+  </div>
 </body>
+</P>
+
 
 </html>
